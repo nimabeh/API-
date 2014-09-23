@@ -1,0 +1,55 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body{
+	border: 0px;
+	margin: 0px;
+    padding: 0px;
+    font-family: 'PT Serif', serif;;
+
+}
+
+.image {
+	/*opacity: 1;*/
+
+	position: absolute;
+
+	margin-left: 20%;
+	/*margin-top: 10%;*/
+
+}
+.image:hover {
+	/*opacity: 0;*/
+	transition-duration: 0.3s;
+
+}
+
+
+
+
+	#gsc-i-id1{
+	/*	border:none;*/
+
+	}
+
+	.gsc-search-button, .gsc-clear-button{
+		display: none;
+	}
+		/* the width of the controls (keep same as gsc-results for flush look) */
+		#searchcontrol { width:600px;
+			margin-left: 20%;
+			margin-top: 15%;
+
+		 }
+		.gsc-control { width:auto !important; }
+		/* the width of the search results box; no height value = nice auto look  */
+		.gsc-results { width:600px; }
+		/* the width of the search input */
+		.gsc-input { width:200px; border: none; }
+		/* hide "powered by google" (optional) */
+		.gsc-branding { display:none; }
+		.gs-title a { color:#19CDFF; font-weight:bold; }
+		#searchcontrol a { color:#19CDFF; }
+
+	
